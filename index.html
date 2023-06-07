@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Parallax Backgrounds</title>
+		<link rel="stylesheet" href="style.css"/>
+        <link rel = "icon" href = "https://th.bing.com/th/id/OIP.EbbJ0Ws-WFS7acci0jSiZwHaNK?pid=ImgDet&w=1080&h=1920&rs=1">
+	</head>
+	<body>
+        <canvas id="mycanvas">
+            <img src = "img/1road.png" alt="" id="road">
+            <img src = "img/2fire.png" alt="" id="fire">
+            <img src = "img/3smoke1.png" alt="" id="smoke1">
+            <img src = "img/4smoke2.png" alt="" id="smoke2">
+            <img src = "img/5building1.png" alt="" id="building1">
+            <img src = "img/6rocks.png" alt="" id="rocks">
+            <img src = "img/7road1.png" alt="" id="road1">
+            <img src = "img/8building2.png" alt="" id="building2">
+            <img src = "img/9bg.png" alt="" id="bg">
+            <img src = "img/10firetruck.png" alt="" id="firetruck">
+        </canvas>
+        <div id = "SpeedModifier">
+            <p> Game Speed: <span id ="parallaxSpeed"></span></p>
+            <input type = "range" min = "0" max = "20" value = "3" class = "" id = "reach">
+        </div>
+        <script src="script.js"></script>
+	</body>
+</html>
